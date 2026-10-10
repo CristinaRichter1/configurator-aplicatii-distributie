@@ -1,0 +1,17 @@
+{
+  "formatVersion": 1,
+  "releaseId": "casa-mea-v0.2.0",
+  "productId": "casa-mea",
+  "distributionProfile": "public",
+  "channel": "stable",
+  "version": "0.2.0",
+  "package": {
+    "url": "https://github.com/CristinaRichter1/configurator-aplicatii-distributie/releases/download/casa-mea-v0.2.0/CasaMea-0.2.0-win-x64.zip",
+    "fileName": "CasaMea-0.2.0-win-x64.zip",
+    "bytes": 145427370,
+    "sha256": "d1c07fef5c10dee61b6a3813a0ab2e82ff81185543b7446b13182001a9a46c62"
+  },
+  "freshInstall": true,
+  "upgradeRoutes": [],
+  "manifestSha256": "e22ae8dffdd56c76c7965356b7833228c8f3c41ab9416c70aa2ed3538e15d803"
+}
