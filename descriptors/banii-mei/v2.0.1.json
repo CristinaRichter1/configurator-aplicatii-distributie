@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "releaseId": "banii-mei-v2.0.1",
+  "productId": "banii-mei",
+  "distributionProfile": "public",
+  "channel": "stable",
+  "version": "2.0.1",
+  "package": {
+    "url": "https://github.com/CristinaRichter1/configurator-aplicatii-distributie/releases/download/banii-mei-v2.0.1/Banii-mei-v2.0.1-common.zip",
+    "fileName": "Banii-mei-v2.0.1-common.zip",
+    "bytes": 132159381,
+    "sha256": "22385ed5afc21d4cb4cc8885c9a51bee361a56bc4a6cf57dc6e33172a84e2fdf"
+  },
+  "freshInstall": true,
+  "upgradeRoutes": [
+    {
+      "fromVersion": "2.0.0",
+      "fromDataContract": "restored-v1:f77ff1a9d7ac739376aa38396032c1b261b55de7153890e7bb2c106342d9a541",
+      "toDataContract": "restored-v1:f77ff1a9d7ac739376aa38396032c1b261b55de7153890e7bb2c106342d9a541",
+      "migrationIds": []
+    },
+    {
+      "fromVersion": "1.1.1",
+      "fromDataContract": "restored-v1:050a626d58317e3b85fb57394ca48e243f8ef3f933ea8fde9091ac240937b0b0",
+      "toDataContract": "restored-v1:f77ff1a9d7ac739376aa38396032c1b261b55de7153890e7bb2c106342d9a541",
+      "migrationIds": [
+        "2.0.0-category-icons"
+      ]
+    },
+    {
+      "fromVersion": "2.0.0",
+      "fromDataContract": "fresh-v1:0cb1df40e08550a1e70b96f9a7b35bbbed29112bc92f8b3d8b6ca1bd0c7b0901",
+      "toDataContract": "fresh-v1:0cb1df40e08550a1e70b96f9a7b35bbbed29112bc92f8b3d8b6ca1bd0c7b0901",
+      "migrationIds": []
+    },
+    {
+      "fromVersion": "1.1.1",
+      "fromDataContract": "fresh-v1:960975f895295654734fb595438c60c28e08124ee2b9066eca17305613233530",
+      "toDataContract": "fresh-v1:0cb1df40e08550a1e70b96f9a7b35bbbed29112bc92f8b3d8b6ca1bd0c7b0901",
+      "migrationIds": [
+        "2.0.0-category-icons"
+      ]
+    }
+  ],
+  "manifestSha256": "e2b07ca54a0d5ef3862aa21690bc7bc6034964339c8abd2cc96b495bc935d17c"
+}

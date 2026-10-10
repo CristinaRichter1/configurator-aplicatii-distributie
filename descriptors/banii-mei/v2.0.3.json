@@ -1,0 +1,30 @@
+{
+  "formatVersion": 1,
+  "releaseId": "banii-mei-v2.0.3",
+  "productId": "banii-mei",
+  "distributionProfile": "public",
+  "channel": "stable",
+  "version": "2.0.3",
+  "package": {
+    "url": "https://github.com/CristinaRichter1/configurator-aplicatii-distributie/releases/download/banii-mei-v2.0.3/Banii-mei-v2.0.3-common.zip",
+    "fileName": "Banii-mei-v2.0.3-common.zip",
+    "bytes": 132160249,
+    "sha256": "1601252c620a6701033bb745179523f4399dca127514d5049ff4a21a9afbf85f"
+  },
+  "freshInstall": true,
+  "upgradeRoutes": [
+    {
+      "fromVersion": "2.0.2",
+      "fromDataContract": "restored-v1:f77ff1a9d7ac739376aa38396032c1b261b55de7153890e7bb2c106342d9a541",
+      "toDataContract": "restored-v1:f77ff1a9d7ac739376aa38396032c1b261b55de7153890e7bb2c106342d9a541",
+      "migrationIds": []
+    },
+    {
+      "fromVersion": "2.0.2",
+      "fromDataContract": "fresh-v1:0cb1df40e08550a1e70b96f9a7b35bbbed29112bc92f8b3d8b6ca1bd0c7b0901",
+      "toDataContract": "fresh-v1:0cb1df40e08550a1e70b96f9a7b35bbbed29112bc92f8b3d8b6ca1bd0c7b0901",
+      "migrationIds": []
+    }
+  ],
+  "manifestSha256": "0adb0f4388ca30088485cd30d02003e89f38b2cf81a491e1c7e88dd292c8ecda"
+}

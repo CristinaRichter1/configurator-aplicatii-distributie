@@ -1,0 +1,1 @@
+{"formatVersion":1,"keyId":"configurator-release-v1","algorithm":"ECDSA-P256-SHA256-P1363","signature":"GDAird8I0/fZ7U4xsQle/yYtPTzNHWfsjoIUB7yd+hWvmptSerPGX0FHvYfhd6xaFgT4Yg6U9XUsHD2Fr3hR8g=="}
