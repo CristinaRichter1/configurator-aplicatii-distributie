@@ -1,0 +1,5 @@
+# Signed JSON is verified byte-for-byte; Git must not normalize line endings.
+catalog.json -text
+catalog.json.sig -text
+descriptors/**/*.json -text
+descriptors/**/*.json.sig -text
