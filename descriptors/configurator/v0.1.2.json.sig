@@ -1,1 +1,1 @@
-{"formatVersion":1,"keyId":"configurator-release-v1","algorithm":"ECDSA-P256-SHA256-P1363","signature":"aqyMNwtbyvP4JcoDlbIrLMn8bk6Rcke3UQS05kTc7nzEFHjDl6UFZ7Q2XOdgrr0GY8SWy9Cd0gwebQx8qlWCUQ=="}
+{"formatVersion":1,"keyId":"configurator-release-v1","algorithm":"ECDSA-P256-SHA256-P1363","signature":"1nyxd4Iae9j4FiO19a7MLfYVGuBgq2GF/c6oB2wxqHTfA33Jn8DysMq24/9rHW5vKdgswbfYq2Q+rcGaewv2iQ=="}
