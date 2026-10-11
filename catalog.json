@@ -1,8 +1,8 @@
 {
   "formatVersion": 1,
-  "sequence": 4,
-  "publishedAtUtc": "2026-10-11T13:38:50.2249697+00:00",
-  "expiresAtUtc": "2027-10-11T13:38:50.2368548+00:00",
+  "sequence": 5,
+  "publishedAtUtc": "2026-10-11T13:56:51.5912467+00:00",
+  "expiresAtUtc": "2027-10-11T13:56:51.5952196+00:00",
   "products": [
     {
       "productId": "banii-mei",
@@ -49,7 +49,7 @@
       "description": "Instalează și gestionează aplicațiile tale",
       "adapterId": "configurator-aplicatii",
       "channel": "stable",
-      "freshInstallReleaseId": "configurator-aplicatii-v0.1.0",
+      "freshInstallReleaseId": "configurator-aplicatii-v0.1.1",
       "releases": [
         {
           "releaseId": "configurator-aplicatii-v0.1.0",
@@ -57,9 +57,21 @@
           "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/configurator/v0.1.0.json",
           "descriptorSha256": "d80bfc8e3f7116451e1df7221677f22878d5341d6072feec18195aaf721ac5ce",
           "status": "available"
+        },
+        {
+          "releaseId": "configurator-aplicatii-v0.1.1",
+          "version": "0.1.1",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/configurator/v0.1.1.json",
+          "descriptorSha256": "683af56def1557f8a0d0bdc9c13942f425e8fd33a24a04b26ed8689736a31286",
+          "status": "available"
         }
       ],
-      "successors": []
+      "successors": [
+        {
+          "fromVersion": "0.1.0",
+          "releaseId": "configurator-aplicatii-v0.1.1"
+        }
+      ]
     }
   ],
   "revocations": []
