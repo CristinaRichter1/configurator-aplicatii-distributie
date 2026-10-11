@@ -8,8 +8,8 @@
   "package": {
     "url": "https://github.com/CristinaRichter1/configurator-aplicatii-distributie/releases/download/configurator-aplicatii-v0.1.2/ConfiguratorAplicatii-0.1.2.zip",
     "fileName": "ConfiguratorAplicatii-0.1.2.zip",
-    "bytes": 96750392,
-    "sha256": "62c6f9be1dfbd20e63bd7739660d077cfe79ad264a141deab120f9f86fbb50d3"
+    "bytes": 96751525,
+    "sha256": "4404e2f4dbf3ea67348447532de04697af0aba7dded1ca1aed3e12d16967cc11"
   },
   "freshInstall": true,
   "upgradeRoutes": [
@@ -20,5 +20,5 @@
       "fromVersion": "0.1.1"
     }
   ],
-  "manifestSha256": "72453690270a1cc26d339e14454fa444a57dff1470ddf5980df16dd5d049c5ee"
+  "manifestSha256": "c76c1dcb79ce000cf2e06df01e835edb915878f62d332db6eeb79b276d7fc1d0"
 }
