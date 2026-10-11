@@ -1,0 +1,17 @@
+{
+  "formatVersion": 1,
+  "releaseId": "banii-mei-v2.1.2-common",
+  "productId": "banii-mei",
+  "distributionProfile": "public",
+  "channel": "stable",
+  "version": "2.1.2",
+  "package": {
+    "url": "https://github.com/CristinaRichter1/configurator-aplicatii-distributie/releases/download/banii-mei-v2.1.2-common/Banii-mei-v2.1.2-common.zip",
+    "fileName": "Banii-mei-v2.1.2-common.zip",
+    "bytes": 168877416,
+    "sha256": "28c9cced3d195317727e697b80afa5cb0525ade02b0953f2f9d779eec0186ff9"
+  },
+  "freshInstall": true,
+  "upgradeRoutes": [],
+  "manifestSha256": "2535985f0817e978fd9a520fdf3822afbeee296404d6f289e3bd9761946c3bcb"
+}
