@@ -1,0 +1,24 @@
+{
+  "formatVersion": 1,
+  "releaseId": "configurator-aplicatii-v0.1.1",
+  "productId": "configurator-aplicatii",
+  "distributionProfile": "public",
+  "channel": "stable",
+  "version": "0.1.1",
+  "package": {
+    "url": "https://github.com/CristinaRichter1/configurator-aplicatii-distributie/releases/download/configurator-aplicatii-v0.1.1/ConfiguratorAplicatii-0.1.1.zip",
+    "fileName": "ConfiguratorAplicatii-0.1.1.zip",
+    "bytes": 96746158,
+    "sha256": "ee7df6abb1270ae65fceb3b1966d8facc74a40695fc0f0b6c28b3eced61b7475"
+  },
+  "freshInstall": true,
+  "upgradeRoutes": [
+    {
+      "fromDataContract": null,
+      "toDataContract": null,
+      "migrationIds": [],
+      "fromVersion": "0.1.0"
+    }
+  ],
+  "manifestSha256": "ea48fd4cb57c48bdf197d2028544cc59761a2743862bda29e74d6c6689311489"
+}

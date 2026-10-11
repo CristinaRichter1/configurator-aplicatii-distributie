@@ -1,0 +1,78 @@
+{
+  "formatVersion": 1,
+  "sequence": 5,
+  "publishedAtUtc": "2026-10-11T13:56:51.5912467+00:00",
+  "expiresAtUtc": "2027-10-11T13:56:51.5952196+00:00",
+  "products": [
+    {
+      "productId": "banii-mei",
+      "distributionProfile": "public",
+      "displayName": "Banii mei",
+      "description": "Buget, facturi și extrase de cont",
+      "adapterId": "banii-mei",
+      "channel": "stable",
+      "freshInstallReleaseId": "banii-mei-v2.1.2-common",
+      "releases": [
+        {
+          "releaseId": "banii-mei-v2.1.2-common",
+          "version": "2.1.2",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/banii-mei/v2.1.2-common.json",
+          "descriptorSha256": "58c4e71c51506b31ffb68bd501292703b4b6d7ca4121b955b1f0130f0c1ed382",
+          "status": "available"
+        }
+      ],
+      "successors": []
+    },
+    {
+      "productId": "casa-mea",
+      "distributionProfile": "public",
+      "displayName": "Casa mea",
+      "description": "Organizarea activităților pentru casă",
+      "adapterId": "casa-mea",
+      "channel": "stable",
+      "freshInstallReleaseId": "casa-mea-v1.0.0",
+      "releases": [
+        {
+          "releaseId": "casa-mea-v1.0.0",
+          "version": "1.0.0",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/casa-mea/v1.0.0.json",
+          "descriptorSha256": "dd0bb4d21d809e92dc585ec5b418554e745b4b3d07745affdcd162a8675e91d2",
+          "status": "available"
+        }
+      ],
+      "successors": []
+    },
+    {
+      "productId": "configurator-aplicatii",
+      "distributionProfile": "public",
+      "displayName": "Configurator aplicații",
+      "description": "Instalează și gestionează aplicațiile tale",
+      "adapterId": "configurator-aplicatii",
+      "channel": "stable",
+      "freshInstallReleaseId": "configurator-aplicatii-v0.1.1",
+      "releases": [
+        {
+          "releaseId": "configurator-aplicatii-v0.1.0",
+          "version": "0.1.0",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/configurator/v0.1.0.json",
+          "descriptorSha256": "d80bfc8e3f7116451e1df7221677f22878d5341d6072feec18195aaf721ac5ce",
+          "status": "available"
+        },
+        {
+          "releaseId": "configurator-aplicatii-v0.1.1",
+          "version": "0.1.1",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/configurator/v0.1.1.json",
+          "descriptorSha256": "683af56def1557f8a0d0bdc9c13942f425e8fd33a24a04b26ed8689736a31286",
+          "status": "available"
+        }
+      ],
+      "successors": [
+        {
+          "fromVersion": "0.1.0",
+          "releaseId": "configurator-aplicatii-v0.1.1"
+        }
+      ]
+    }
+  ],
+  "revocations": []
+}
