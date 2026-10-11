@@ -1,0 +1,74 @@
+{
+  "formatVersion": 1,
+  "sequence": 2,
+  "publishedAtUtc": "2026-10-11T11:16:36.9812531+00:00",
+  "expiresAtUtc": "2027-10-11T14:11:02.0655897+03:00",
+  "products": [
+    {
+      "productId": "banii-mei",
+      "distributionProfile": "public",
+      "displayName": "Banii mei",
+      "description": "Buget, facturi și extrase de cont",
+      "adapterId": "banii-mei",
+      "channel": "stable",
+      "freshInstallReleaseId": "banii-mei-v2.1.2",
+      "releases": [
+        {
+          "releaseId": "banii-mei-v2.1.2",
+          "version": "2.1.2",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/banii-mei/v2.1.2.json",
+          "descriptorSha256": "030f9b734dbda5ddad00ae13c9547b4bcbd80886af95accd2338176062a12dbd",
+          "status": "available"
+        }
+      ],
+      "successors": []
+    },
+    {
+      "productId": "casa-mea",
+      "distributionProfile": "public",
+      "displayName": "Casa mea",
+      "description": "Organizarea activităților pentru casă",
+      "adapterId": "casa-mea",
+      "channel": "stable",
+      "freshInstallReleaseId": "casa-mea-v1.0.0",
+      "releases": [
+        {
+          "releaseId": "casa-mea-v1.0.0",
+          "version": "1.0.0",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/casa-mea/v1.0.0.json",
+          "descriptorSha256": "dd0bb4d21d809e92dc585ec5b418554e745b4b3d07745affdcd162a8675e91d2",
+          "status": "available"
+        }
+      ],
+      "successors": []
+    },
+    {
+      "productId": "configurator-aplicatii",
+      "distributionProfile": "public",
+      "displayName": "Configurator aplicații",
+      "description": "Instalează și gestionează aplicațiile tale",
+      "adapterId": "configurator-aplicatii",
+      "channel": "stable",
+      "freshInstallReleaseId": "configurator-aplicatii-v0.1.0",
+      "releases": [
+        {
+          "releaseId": "configurator-aplicatii-v0.1.0",
+          "version": "0.1.0",
+          "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/configurator/v0.1.0.json",
+          "descriptorSha256": "d80bfc8e3f7116451e1df7221677f22878d5341d6072feec18195aaf721ac5ce",
+          "status": "available"
+        }
+      ],
+      "successors": []
+    }
+  ],
+  "revocations": [
+    {
+      "productId": "casa-mea",
+      "distributionProfile": "public",
+      "releaseId": "casa-mea-v1.0.0",
+      "fromVersion": null,
+      "reason": "Probă de revocare în catalogul de test; nu afectează catalogul stabil."
+    }
+  ]
+}
