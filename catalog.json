@@ -1,8 +1,8 @@
 {
   "formatVersion": 1,
-  "sequence": 6,
-  "publishedAtUtc": "2026-10-11T15:06:59.9432193+00:00",
-  "expiresAtUtc": "2027-10-11T15:06:59.9471706+00:00",
+  "sequence": 7,
+  "publishedAtUtc": "2026-10-11T16:34:23Z",
+  "expiresAtUtc": "2027-10-11T16:34:23Z",
   "products": [
     {
       "productId": "banii-mei",
@@ -69,7 +69,7 @@
           "releaseId": "configurator-aplicatii-v0.1.2",
           "version": "0.1.2",
           "descriptorUrl": "https://raw.githubusercontent.com/CristinaRichter1/configurator-aplicatii-distributie/main/descriptors/configurator/v0.1.2.json",
-          "descriptorSha256": "23c96aa26b2933fcf7c42c58830bbe861a59379e364ee37311ca9ebfc7c3932a",
+          "descriptorSha256": "2c938cbdde54c83a5e3dfafeefa2c6202947910af62756164d9a8861d676eb4d",
           "status": "available"
         }
       ],
