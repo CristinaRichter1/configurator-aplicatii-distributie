@@ -1,5 +1,2 @@
-# Signed JSON is verified byte-for-byte; Git must not normalize line endings.
-catalog.json -text whitespace=cr-at-eol
-catalog.json.sig -text
-descriptors/**/*.json -text whitespace=cr-at-eol
-descriptors/**/*.json.sig -text
+*.json -text
+*.json.sig -text
